@@ -9,5 +9,6 @@ $form.addEventListener('submit', (e) => {
         $validationError.style.display = 'block'
     } else {
         window.location.href = 'index.html';
+        localStorage.setItem('auth','true')
     }
 })
