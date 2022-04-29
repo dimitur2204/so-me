@@ -16,23 +16,42 @@
 	<body>
 		<!-- As a link -->
 		<nav class="navbar navbar-light bg-light">
-			<div class="container-fluid">
+			<div class="container">
 				<a class="navbar-brand" href="/">Navbar</a>
 			</div>
 		</nav>
-		<section class="container px-4">
-			<h1>Campaign overview</h1>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, esse
-				suscipit. A placeat ipsum voluptatibus dicta sit, rerum labore vitae
-				minus suscipit quae. Magni, rerum sunt blanditiis quo debitis alias.
-			</p>
-			<h1>Content calendar</h1>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, esse
-				suscipit. A placeat ipsum voluptatibus dicta sit, rerum labore vitae
-				minus suscipit quae. Magni, rerum sunt blanditiis quo debitis alias.
-			</p>
+		<section class="content container px-4">
+			<h1 class="mt-5 mb-3">Content</h1>
+			<ul class="my-3 table-of-contents">
+				<li><a href="#campaign-plan">Campaign plan</a></li>
+				<li><a href="#campaign-calendar">Campaign calendar</a></li>
+			</ul>
+			<section id="campaign-plan" class="mb-5">
+				<h2 class="mb-4">Campaign plan</h2>
+				<p class="mb-4">
+					This is our campaign plan where we explain the timeline and what we
+					will be doing through out
+				</p>
+				<iframe
+					src="./images/campaign-plan.pdf"
+					width="100%"
+					height="700px"
+					frameborder="0"
+				></iframe>
+			</section>
+			<section id="campaign-calendar" class="mb-5">
+				<h2 class="mb-4">Campaign calendar</h2>
+				<p class="mb-4">
+					This is the calendar where you can see what actions and content we are
+					going to create during the timeline of the campaign 📆!
+				</p>
+				<iframe
+					src="./images/calendar-and-content.pdf"
+					width="100%"
+					height="700px"
+					frameborder="0"
+				></iframe>
+			</section>
 		</section>
 		<script src="./auth.js"></script>
 		<script
