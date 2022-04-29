@@ -1,3 +1,7 @@
 .card{
    min-height: 250px;
 }
+
+#validation-password{
+   display: none;
+}
